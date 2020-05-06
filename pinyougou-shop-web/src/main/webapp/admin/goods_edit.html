@@ -26,6 +26,15 @@
 	<script type="text/javascript" src="../js/service/goodsService.js">  </script>
 	<script type="text/javascript" src="../js/controller/baseController.js">  </script>
 	<script type="text/javascript" src="../js/controller/goodsController.js">  </script>
+	<script type="text/javascript">
+        var editor;
+        KindEditor.ready(function(K) {
+            editor = K.create('textarea[name="content"]', {
+                allowFileManager : true
+            });
+        });
+	</script>
+
 
 
 

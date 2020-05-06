@@ -12,8 +12,6 @@ import com.pinyougou.sellergoods.service.GoodsService;
 
 import entity.PageResult;
 import entity.Result;
-import sun.plugin.liveconnect.SecurityContextHelper;
-
 /**
  * controller
  * @author Administrator
@@ -108,7 +106,7 @@ public class GoodsController {
 	
 		/**
 	 * 查询+分页
-	 * @param brand
+	 * @param
 	 * @param page
 	 * @param rows
 	 * @return
